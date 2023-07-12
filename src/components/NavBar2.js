@@ -12,7 +12,7 @@ function NavBar() {
 
   return (
     <nav className="navbar2">
-      <div className="company-name2">Cooke Getaways</div>
+      <div className="company-name2"><NavLink exact to="/" className="main-link">Cooke Getaways</NavLink></div>
       <FiMenu onClick={handleHamburgerClick} className="hamburger-icon" />
       {showMenu && 
         <div className="menu-popup">
