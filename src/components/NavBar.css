@@ -13,7 +13,6 @@ ul {
     left: 0;
     box-sizing: border-box;
 }
-
 .company-name {
     font-size: 34px;
     font-weight: bold;
@@ -21,18 +20,30 @@ ul {
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+.hamburger-icon {
+    display: none;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.menu-popup {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
 .nav-links {
     display: flex;
     gap: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     flex-wrap: wrap;
 }
-
 .book-link {
     color: white
 }
-
 .nav-links a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -43,7 +54,6 @@ ul {
     padding-bottom: 5px;
     padding-right: 3px;
 }
-
 .nav-link-active::after, .nav-links a:hover::after {
     content: '';
     position: absolute;
@@ -54,17 +64,14 @@ ul {
     background-color: #0000ff;
     transition: all 0.5s ease;
 }
-
 .nav-link-active::after {
     width: 100%;
     left: 0;
 }
-
 .nav-links a:hover::after {
     width: 100%;
     left: 0;
 }
-
 .book-now-btn {
     border: none;
     border-radius: 50px;
@@ -74,18 +81,35 @@ ul {
     color: #fff;
     cursor: pointer;
 }
-
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
+    
+    .hamburger-icon {
+        display: block;
     }
-
+    .desktop {
+        display: none;
+    }
     .nav-links {
-        justify-content: space-around;
-        width: 100%;
+        flex-direction: column;
+        margin-left: 30%;
+        color: black;
     }
 
+    .nav-links a {
+        color: black;
+    }
     .book-now-btn {
-        margin-top: 20px;
+        margin-left: 35%;
+    }
+}
+@media (min-width: 769px) {
+    .menu-popup {
+        display: none;
+    }
+    .desktop {
+        display: flex;
+    }
+    .nav-links {
+        flex-direction: row;
     }
 }
