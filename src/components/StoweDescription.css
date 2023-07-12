@@ -37,10 +37,39 @@
   }
   
   .grid-item {
-    display: flex;
-    flex-direction: column;
     border: 1px solid lightgrey;
     overflow: hidden;
+    width: 100%;
+    height: 400px;
+  }
+
+  .stowe-head {
+    text-align: center;
+  }
+
+  .paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .linky {
+    text-align: center;
+    padding: 30px 0;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+    font-weight: 300
+  }
+
+  a {
+    text-decoration: none;
   }
   
   .grid-item h4 {
@@ -48,8 +77,8 @@
   }
   
   .grid-image {
-    width: 300px;
-    height: 200px;
+    width: 400px; /* adjust as needed */
+    height: 300px; /* adjust as needed */
     object-fit: cover;
   }
   

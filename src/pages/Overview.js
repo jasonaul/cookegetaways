@@ -7,7 +7,7 @@ import Amenities from '../components/Amenities';
 function Overview() {
   return (
     <div>
-      <div className="banner">
+      <div className="banner2">
         <h1 className="banner-text">Beauty in Nature</h1>
         {/* This is the placeholder for the Airbnb API */}
         <div className="airbnb-booking"></div>

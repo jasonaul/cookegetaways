@@ -1,0 +1,19 @@
+.Gallery {
+    
+    margin-top: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .ImageThumbnail {
+    max-width: 500px; /* limit maximum width */
+    max-height: 400px; /* limit maximum height */
+    height: auto; /* keep aspect ratio */
+    object-fit: cover; /* cover the box */
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
