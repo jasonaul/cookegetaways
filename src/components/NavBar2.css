@@ -15,7 +15,8 @@ ul {
 }
 
 .company-name2 {
-    font-size: 24px;
+    font-size: 34px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -23,6 +24,7 @@ ul {
 
 .nav-links2 {
     display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     gap: 15px;
     flex-wrap: wrap;
 }

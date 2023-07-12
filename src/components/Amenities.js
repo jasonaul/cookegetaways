@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaUtensils, FaParking, FaFire, FaFireAlt, FaBroadcastTower, FaTv, FaGamepad, FaDog, FaSmokingBan, FaSkiing } from 'react-icons/fa';
-import { GiFrontalLobe, GiSkiing, GiDeck } from 'react-icons/gi';
-import { AiOutlineCheckCircle, AiOutlineStop } from 'react-icons/ai';
+import { GiFrontalLobe } from 'react-icons/gi';
+import { AiOutlineCheckCircle } from 'react-icons/ai';
 import { IoMdTime } from 'react-icons/io';
 import './Amenities.css';
 import { GiHomeGarage } from 'react-icons/gi';

@@ -11,7 +11,6 @@ function NavBar2() {
                 <li><NavLink to="/overview" activeClassName="nav-link-active2">Overview</NavLink></li>
                 <li><NavLink to="/map" activeClassName="nav-link-active2">Map</NavLink></li>
                 <li><NavLink to="/gallery" activeClassName="nav-link-active2">Gallery</NavLink></li>
-                <li><NavLink to="/rates" activeClassName="nav-link-active2">Rates</NavLink></li>
                 <li><NavLink to="/reviews" activeClassName="nav-link-active2">Reviews</NavLink></li>
                 <li><NavLink to="/contact" activeClassName="nav-link-active2">Contact</NavLink></li>
             </ul>

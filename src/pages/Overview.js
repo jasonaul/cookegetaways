@@ -8,9 +8,9 @@ function Overview() {
   return (
     <div>
       <div className="banner2">
-        <h1 className="banner-text">Beauty in Nature</h1>
+        <h1 className="banner-text">Dine in Style</h1>
         {/* This is the placeholder for the Airbnb API */}
-        <div className="airbnb-booking"></div>
+        {/* <div className="airbnb-booking"></div> */}
       </div>
 
       <div className="content">

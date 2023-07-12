@@ -12,7 +12,7 @@ import outdoors2 from '../images/stowe/outdoors2.jpg'
 import dine from '../images/stowe/dine.jpg'
 import request from '../images/stowe/request.jpg'
 import essential from '../images/stowe/essential.png'
-import wedding from '../images/stowe/wedding.jpg'
+// import wedding from '../images/stowe/wedding.jpg'
 import shine from '../images/stowe/shine.jpg'
 
 

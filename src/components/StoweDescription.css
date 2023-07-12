@@ -20,7 +20,8 @@
     width: 400px; /* adjust as needed */
     height: 300px; /* adjust as needed */
     object-fit: cover;
-}
+    transition: opacity 2s ease; /* Add this line for smooth transition */
+  }
   
   hr {
     width: 80%;
@@ -81,6 +82,8 @@
     height: 300px; /* adjust as needed */
     object-fit: cover;
   }
+
+  
   
   @media (max-width: 768px) {
     .paragraph {

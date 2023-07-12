@@ -1,0 +1,56 @@
+.banner3 {
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/stowe/kayak.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
+  
+  .banner-text {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    -webkit-text-stroke: .35px rgb(0, 0, 0);
+    font-family: 'Academy', Arial, sans-serif;
+  }
+  
+  .airbnb-booking {
+    height: 100px;
+    width: 200px;
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .content {
+    padding: 20px;
+    
+  }
+  
+  .contact-content {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel .slide {
+    background: none;
+  }
+
+
+  
+  @media screen and (max-width: 768px) {
+    .banner-text {
+      font-size: 1.5em;
+    }
+  
+    .airbnb-booking {
+      height: 50px;
+      width: 100px;
+    }
+  }
+  

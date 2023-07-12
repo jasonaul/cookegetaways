@@ -51,6 +51,7 @@ const reviews = [
 
 const Reviews = () => (
     <div className="reviews-container">
+    <h1>Hear directly from our previous guests:</h1>
         {reviews.map((review, index) => (
             <div key={index} className="review-box">
                 <div className="review-header">

@@ -15,8 +15,9 @@ ul {
 }
 
 .company-name {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -24,16 +25,21 @@ ul {
 .nav-links {
     display: flex;
     gap: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     flex-wrap: wrap;
 }
 
+.book-link {
+    color: white
+}
+
 .nav-links a {
-    color: blue;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 25px;
-    -webkit-text-stroke: .25px rgb(255, 255, 255);
+    -webkit-text-stroke: .35px rgb(0, 0, 0);
     position: relative;
-    font-weight: 700;
+    font-weight: 600;
     padding-bottom: 5px;
     padding-right: 3px;
 }
