@@ -6,6 +6,7 @@ import Overview from './pages/Overview';
 import NavBar2 from './components/NavBar2';
 import StoweDescription from './components/StoweDescription';
 import Gallery from './components/Gallery';
+import Reviews from './components/Reviews';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/overview' exact element={<><NavBar /><Overview /></>} />
         <Route path='/map' exact element={<><NavBar2 /><Map /><StoweDescription /></>} />
         <Route path='/gallery' exact element={<><NavBar2 /><Gallery /></>} />
+        <Route path='reviews' exact element={<><NavBar2 /><Reviews /></>} />
 
         {/* Add your other routes here */}
       </Routes>
